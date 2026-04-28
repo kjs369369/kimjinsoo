@@ -83,6 +83,9 @@ export default function HeroSection() {
           <span className="bg-black/40 backdrop-blur-md border border-white/30 text-white px-5 py-2 rounded-full text-base font-medium flex items-center gap-2" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.6)' }}>
             <Award size={16} className="text-gold" /> Gemini Certified Educator
           </span>
+          <span className="bg-black/40 backdrop-blur-md border border-white/30 text-white px-5 py-2 rounded-full text-base font-medium flex items-center gap-2" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.6)' }}>
+            <Award size={16} className="text-gold" /> Anthropic Certified
+          </span>
         </div>
 
         {/* Scroll indicator */}

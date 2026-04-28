@@ -31,6 +31,7 @@ const lectureHistory = [
 ];
 
 const credentials = [
+  { date: "2026.04", name: "Anthropic Certified (Claude 101 · Claude Code 101 · Claude Code in Action · Introduction to Claude Cowork)", issuer: "Anthropic" },
   { date: "2026.03", name: "인공지능(AI) 활용 전문가", issuer: "한국지식콘텐츠협회" },
   { date: "2026", name: "GEO마케팅컨설턴트", issuer: "한국메타버스ESG연구원" },
   { date: "2026.01", name: "AI콘텐츠전문가", issuer: "한국콘텐츠능률협회" },
@@ -41,7 +42,6 @@ const credentials = [
   { date: "2024.06", name: "Prompt Engineer", issuer: "한국미래교육연구소" },
   { date: "2024.02", name: "인공지능(AI) 활용 마스터 1급", issuer: "뉴미디어교육연구소" },
   { date: "2023.10", name: "인공지능콘텐츠강사 1급", issuer: "디지털융합교육원" },
-  { date: "2025", name: "Certificate of completion: Claude 101", issuer: "Anthropic" },
 ];
 
 export default function CareerSection() {
