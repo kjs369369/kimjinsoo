@@ -16,4 +16,4 @@ User-agent: *
 Allow: /
 Disallow: /admin
 
-Sitemap: https://kimjinsoo.vercel.app/sitemap.xml
+Sitemap: https://kimjinsoo.aiclab.kr/sitemap.xml
