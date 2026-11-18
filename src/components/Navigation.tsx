@@ -48,12 +48,13 @@ export default function Navigation() {
         }`}
       >
         <div className="max-w-[1200px] mx-auto px-5 flex items-center justify-between">
-          <button onClick={() => scrollTo("hero")} className="font-display text-sm md:text-lg font-bold text-primary-foreground">
-            김진수 <span className="text-gold">AI활용교육전문가 · GEO마케팅전문가</span>
+          <button onClick={() => scrollTo("hero")} className="min-w-0 text-left font-display text-sm font-bold text-primary-foreground lg:text-base xl:text-lg">
+            김진수 <span className="whitespace-nowrap">· 메이랜드AI비즈랩</span>{" "}
+            <span className="block text-gold xl:inline">AI활용교육전문가 · GEO마케팅전문가</span>
           </button>
 
           {/* Desktop */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
             {navItems.slice(1).map((item) => (
               <button
                 key={item.id}
@@ -83,7 +84,7 @@ export default function Navigation() {
           </div>
 
           {/* Mobile toggle */}
-          <button className="md:hidden text-primary-foreground" onClick={() => setMobileOpen(!mobileOpen)}>
+          <button className="lg:hidden text-primary-foreground" onClick={() => setMobileOpen(!mobileOpen)}>
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -91,7 +92,7 @@ export default function Navigation() {
 
       {/* Mobile menu */}
       <div
-        className={`fixed inset-0 z-40 gradient-navy transition-transform duration-300 md:hidden ${
+        className={`fixed inset-0 z-40 gradient-navy transition-transform duration-300 lg:hidden ${
           mobileOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

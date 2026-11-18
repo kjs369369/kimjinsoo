@@ -1,0 +1,10 @@
+{
+  "name": "kimjinsoo-glob-matcher",
+  "version": "1.0.1",
+  "private": true,
+  "license": "MIT",
+  "main": "index.cjs",
+  "dependencies": {
+    "minimatch": "10.2.6"
+  }
+}
